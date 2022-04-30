@@ -3,14 +3,14 @@ Using the os and csv modules in Python, a financial dataset (budget_data.csv in 
 
 ## PyBank
 
-From the [financial dataset](../blob/main/PyBank/Resources/budget_data.csv) consisting of columns 'Date' and 'Profit/Losses,' a Python script was made to identify:
+From the [financial dataset](PyBank/Resources/budget_data.csv) consisting of columns 'Date' and 'Profit/Losses,' a Python script was made to identify:
   - The total number of months encompassed 
   - The total Profit/Losses
   - The changes in Profit/Losses and average of the changes
   - The date and amount of the greatest increase in profits
   - The date and amount of the greatest decrease in profits
 
-Running the script produced the following, and saved the contents as a [text file](../blob/main/PyBank/Analysis/output.txt).
+Running the script produced the following, and saved the contents as a [text file](PyBank/Analysis/output.txt).
 ```
 Financial Analysis
 ----------------------
@@ -23,14 +23,14 @@ Greatest Decrease in Profits: Dec-10 ($-1194133)
 
 ## PyPoll
 
-From the [election poll dataset](../blob/main/PyPoll/Resources/election_data.csv), consisting of columns 'Voter ID,' 'Country,' and 'Candidate,' a Python script was made to identify:
+From the [election poll dataset](PyPoll/Resources/election_data.csv), consisting of columns 'Voter ID,' 'Country,' and 'Candidate,' a Python script was made to identify:
   - The total number of votes
   - A list of candidates
   - The number of votes each candidate received 
   - The perentage of total votes each candidate received 
   - The winner of the election 
 
-The election analysis, printed below, was saved as a [text file](../blob/main/PyPoll/Analysis/output.txt). 
+The election analysis, printed below, was saved as a [text file](PyPoll/Analysis/output.txt). 
 ```
 Election Results
 ----------------------
